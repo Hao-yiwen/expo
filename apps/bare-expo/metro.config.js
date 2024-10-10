@@ -11,7 +11,7 @@ config.resolver.assetExts.push(
 
 config.transformer.getTransformOptions = () => ({
   transform: {
-    experimentalImportSupport: false,
+    experimentalImportSupport: true,
     inlineRequires: true,
   },
 });
